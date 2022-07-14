@@ -1,4 +1,3 @@
-
 <!doctype html>
 <html lang="es">
 <head>
@@ -10,13 +9,13 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <!-- Favicon -->
-<link rel="shortcut icon" type="image/jpg" href="./resources/logo/favicon.png"/>
+<link rel="shortcut icon" type="image/jpg" href="../../resources/logo/favicon.png"/>
 <!-- VENDORS CSS -->
-<link rel="stylesheet" href="./estilos/extras.css">
+<link rel="stylesheet" href="../../estilos/extras.css"/>
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
 <!-- CUSTOM CSS -->
-<link rel="stylesheet" href="./estilos/style.css"/>
+<link rel="stylesheet" href="../../estilos/style.css"/>
 </head>
 <body>
 <!-- Overlay -->
@@ -27,16 +26,16 @@
     <a href="#" id="sidebar-button"></a>
     <!-- Logo -->
     <header id="logo">
-        <a href="./index.html">
+        <a href="../../index.html">
             <!-- <h1>GV</h1> -->
-            <img src="./resources/logo/logo_sin_fondo_w.png" alt="GV">
+            <img src="../../resources/logo/logo_sin_fondo_w.png" alt="GV">
         </a>
         <!-- <p>Arquitectura</p> -->
     </header>
     <!-- Fullscreen slider navigation arrows -->
         <nav id="nav-arrows">
         <a href="#" class="nav-left hidden"></a>
-        <a href="#" class="nav-right"></a>
+        <a href="#" class="nav-right hidden"></a>
         </nav>
 </div><!-- Collapsible sidebar -->
 <div id="sidebar">
@@ -45,16 +44,16 @@
         <!-- Main menu -->
         <nav id="mainmenu">
             <ul>
-                <li><a href="./pages/lifestyle.html">Lifestyle</a></li>
-                <li><a href="./pages/desarrollos.html">Desarrollos</a></li>
+                <li><a href="../lifestyle.html">Lifestyle</a></li>
+                <li><a href="../desarrollos.html">Desarrollos</a></li>
                 <li><a href="">El Estudio</a>
                     <ul>
-                        <li><a href="./pages/quienes_somos.html">Quienes Somos</a></li>
-                        <li><a href="./pages/fotos.html">Fotos</a></li>
+                        <li><a href="../quienes_somos.html">Quienes Somos</a></li>
+                        <li><a href="../fotos.html">Fotos</a></li>
                     </ul>
                 </li>
-                <li><a href="./pages/contacto.html">Contacto</a></li>
-                <li><a href="./pages/instagram.html">Instagram</a></li>
+                <li><a href="../contacto.html">Contacto</a></li>
+                <li><a href="../instagram.html">Instagram</a></li>
             </ul>
         </nav>
     </div>
@@ -63,41 +62,48 @@
         <p class="copyright">© Copyright 2022 Guido Vizioli</p>
     </div>
 </div>
-<!-- Main wrapper -->
-<div id="main-wrapper">
-    <!-- Fullscreen slider -->
-    <div id="fullscreen-slider" class="swiper-container swiper-home">
-        <div class="swiper-wrapper">
-            <!-- Slide -->
-            <div class="swiper-slide overlay overlay-grid-2">
-                <video id="wave" width="853" height="480" autoplay muted playsinline loop>
-                    <!-- <source src="./resources/images/videos/slide1.ogg" type="video/ogg"> -->
-                    <source src="./resources/images/videos/slide1b.mp4" type="video/mp4">
-                    <source src="./resources/images/videos/slide1.webm" type="video/webm">
-                </video>
-                <h1><img src="./resources/logo/gv_arquitectura_w.png" alt=""></h1>
-            </div>
-            <!-- Slide -->
-            <div class="swiper-slide overlay " style="background-image: url('./resources/proyectos/CASA_L112/slider.jpg')">
-                <h1>Acá puede ir algo de texto también</h1>
-            </div>
-            <div class="swiper-slide overlay " style="background-image: url('./resources/proyectos/CASA_ORIGEN/slider.jpg')">
-                <h1>Acá puede ir algo de texto también</h1>
-            </div>
-            <div class="swiper-slide overlay " style="background-image: url('./resources/proyectos/GIOVANAKIS/slider.jpg')">
-                <h1>Acá puede ir algo de texto también</h1>
-            </div>
-            <div class="swiper-slide overlay " style="background-image: url('./resources/proyectos/M92/slider.jpg')">
-                <h1>Acá puede ir algo de texto también</h1>
-            </div>
-            <div class="swiper-slide overlay " style="background-image: url('./resources/proyectos/BODEGAS_KRONTIRAS/slider.png')">
-                <h1>Acá puede ir algo de texto también</h1>
+    <!-- Main wrapper -->
+    <div id="main-wrapper">
+        <!-- Content -->
+        <!-- Fluid container -->
+        <div class="container">
+            <!-- Page heading -->
+            <header id="heading">
+                <h1>CASA L112</h1>
+                <div class="icon-text">
+                    <i class="fa fa-map-marker"></i>
+                    <p>CASA L112 (localidad) - 1.500 m2 (dimensiones)</p>
+                </div>
+            </header>
+            <!-- Main content -->
+            <div class="gallery">
+                <a href="../../resources/proyectos/CASA_L112/ADS 1.jpg">
+                    <img alt="CASA L112" src="../../resources/proyectos/CASA_L112/ADS 1a.jpg"/>
+                </a>
+                <a href="../../resources/proyectos/CASA_L112/ADS 2.jpg">
+                    <img alt="CASA L112" src="../../resources/proyectos/CASA_L112/ADS 2.jpg"/>
+                </a>
+                <a href="../../resources/proyectos/CASA_L112/ADS 3.jpg">
+                    <img alt="CASA L112" src="../../resources/proyectos/CASA_L112/ADS 3a.jpg"/>
+                </a>
+                <a href="../../resources/proyectos/CASA_L112/ADS 4.jpg">
+                    <img alt="CASA L112" src="../../resources/proyectos/CASA_L112/ADS 4.jpg"/>
+                </a>
+                <a href="../../resources/proyectos/CASA_L112/ADS 5.jpg">
+                    <img alt="CASA L112" src="../../resources/proyectos/CASA_L112/ADS 5a.jpg"/>
+                </a>
+                <a href="../../resources/proyectos/CASA_L112/ADS 6.jpg">
+                    <img alt="CASA L112" src="../../resources/proyectos/CASA_L112/ADS 6.jpg"/>
+                </a>
+                <a href="../../resources/proyectos/CASA_L112/ADS 7.jpg">
+                    <img alt="CASA L112" src="../../resources/proyectos/CASA_L112/ADS 7.jpg"/>
+                </a>
             </div>
         </div>
-    </div>
-    <a href="https://api.whatsapp.com/send?phone=5491135798520&text=Hola%21%20Quisiera%20m%C3%A1s%20informaci%C3%B3n." class="float" target="_blank">
+            <a href="https://api.whatsapp.com/send?phone=5491135798520&text=Hola%21%20Quisiera%20m%C3%A1s%20informaci%C3%B3n." class="float" target="_blank">
         <i class="fa fa-whatsapp my-float"></i>
     </a>
+    <!-- Footer -->
     <footer class="footer-section">
     <div class="container">
         <div class="row">
@@ -141,12 +147,12 @@
                                     <h3>Sitio</h3>
                                 </div>
                                 <ul>
-                                    <li><a href="./pages/lifestyle.html">Lifestyle</a></li>
-                                    <li><a href="./pages/desarrollos.html">Desarrollos</a></li>
-                                    <li><a href="./pages/quienes_somos.html">Quienes Somos</a></li>
-                                    <li><a href="./pages/fotos.html">Fotos</a></li>
-                                    <li><a href="./pages/contacto.html">Contacto</a></li>
-                                    <li><a href="./pages/instagram.html">Instagram</a></li>
+                                    <li><a href="../lifestyle.html">Lifestyle</a></li>
+                                    <li><a href="../desarrollos.html/">Desarrollos</a></li>
+                                    <li><a href="../quienes_somos.html">Quienes Somos</a></li>
+                                    <li><a href="../fotos.html">Fotos</a></li>
+                                    <li><a href="../contacto.html">Contacto</a></li>
+                                    <li><a href="../instagram.html">Instagram</a></li>
                                 </ul>
                             </div>
                         </div>
@@ -160,15 +166,15 @@
             </div>
             <div class="footer-menu">
                 <ul>
-                    <li><a href="./index.html">Home</a></li>
+                    <li><a href="../../index.html">Home</a></li>
                 </ul>
             </div>
         </div>
     </div>
 </footer></div>
 <!-- JavaScripts -->
-<script type="text/javascript" src="./js/jquery.min.js"></script>
-<script type="text/javascript" src="./js/extras.js"></script>
-<script type="text/javascript" src="./js/custom.js"></script>
+<script type="text/javascript" src="../../js/jquery.min.js"></script>
+<script type="text/javascript" src="../../js/extras.js"></script>
+<script type="text/javascript" src="../../js/custom.js"></script>
 </body>
 </html>
